@@ -13,7 +13,10 @@
     font-weight: 700;
     font-style: normal;
   }
+
   a:hover{
+    color: black;
+    background-color: yellow;
     text-decoration: underline;
   }
 html{
@@ -32,7 +35,8 @@ html{
     text-align: center;
 }
 header{
-   
+    background-color: black;
+    color: white;
     padding-bottom: 20px;
 }
 .navbar{
@@ -40,5 +44,19 @@ header{
 }
 a{
     text-decoration: none;
-    color: rgb(59, 58, 58);
+    color: white;
+}
+.blog-entrie{
+    padding: 25px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 2;
+}
+footer{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
 }
