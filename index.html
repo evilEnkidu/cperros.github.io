@@ -12,24 +12,24 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/resources/fish.png" alt="Security Training Logo" height="60">
+                <img src="/resources/fish.png" alt="Security Training Logo" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse pt-2" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                          <a class="nav-link nav-button" href="/index.html">Home</a>
+                      </li>
+                    <li class="nav-item">
+                          <a class="nav-link nav-button" href="/pages/fees.html">Fees & Schedule</a>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link nav-button" href="#directions">Directions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-button" href="#bio">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-button" href="#schedule">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-button" href="#fees">Fees</a>
+                        <a class="nav-link nav-button" href="#schedule">About</a>
                     </li>
                 </ul>
             </div>
@@ -48,46 +48,161 @@
     </section>
 
     <!-- Instructor Section -->
-    <section class="instructor-section" id="instructor">
+    <section class="instructor-section py-5" id="instructor">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 mb-4 mb-lg-0">
-                    <img src="/resources/sec-security-training-stan.png" alt="Lead Instructor" class="instructor-image">
+            <div class="row align-items-start">
+                <!-- Instructor Image and Intro -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="/resources/sec-security-training-stan.png" alt="Lead Instructor" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="h3 mb-3">Meet Your Instructor</h2>
+                            <h3 class="display-4 mb-4">Stanley E. Crittendon</h3>
+                            <p class="lead">With over 40 years of combined law enforcement and security experience, our lead instructor brings extensive real-world expertise to every training session.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-7">
-                    <h2 class="mb-4">Meet Your Instructor</h2>
-                    <p class="lead mb-4">With over 20 years of law enforcement experience, our lead instructor brings real-world expertise to every training session.</p>
-                    
-                    <h3 class="h4 mb-3">Certifications & Credentials</h3>
-                    <div class="certification-badge">
-                        <div>
-                            <h4 class="h5 mb-1">CPR/AED Certified Instructor</h4>
-                            <p class="mb-0">Certification #1371</p>
+    
+                <!-- Detailed Information -->
+                <div class="col-lg-8">
+                    <!-- Navigation Tabs -->
+                    <ul class="nav nav-tabs mb-4" id="instructorTabs" role="tablist">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#expertise">Expertise</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#education">Education</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#career">Career</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#certificates">Certificates</button>
+                        </li>
+                    </ul>
+    
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="instructorTabContent">
+                        <!-- Expertise Tab -->
+                        <div class="tab-pane fade show active" id="expertise">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h4 mb-4">Areas of Expertise</h3>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="certification-badge p-3 bg-light rounded">
+                                                <h4 class="h5 mb-1">CPR/AED Certified Instructor</h4>
+                                                <p class="mb-0">Certification #1371</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="certification-badge p-3 bg-light rounded">
+                                                <h4 class="h5 mb-1">Firearms Training Provider</h4>
+                                                <p class="mb-0">License #LRN/TY Service</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">✓ Security Guard Training (8 Years Experience)</li>
+                                        <li class="list-group-item">✓ Exposed Firearms Training (21 Years Experience)</li>
+                                        <li class="list-group-item">✓ Use of Force Training</li>
+                                        <li class="list-group-item">✓ Virtual Training Implementation</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="certification-badge">
-                        <div>
-                            <h4 class="h5 mb-1">Firearms Training Provider</h4>
-                            <p class="mb-0">License #LRN/TY Service</p>
+    
+                        <!-- Education Tab -->
+                        <div class="tab-pane fade" id="education">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h4 mb-4">Educational Background</h3>
+                                    <div class="timeline">
+                                        <div class="mb-4">
+                                            <h5>Associate of Science Degree in Administration of Justice</h5>
+                                            <p class="text-muted mb-1">Imperial Valley College - June 19, 1981</p>
+                                            <p class="mb-0">380 Aten Rd., Imperial, CA 92250</p>
+                                        </div>
+                                        <div>
+                                            <h5>High School Diploma</h5>
+                                            <p class="text-muted mb-0">Central Union High School - 1977</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="certification-badge">
-                        <div>
-                            <h4 class="h5 mb-1">AR 2850 Approved Courses</h4>
-                            <p class="mb-0">Certified Training Professional</p>
+    
+                        <!-- Career Tab -->
+                        <div class="tab-pane fade" id="career">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h4 mb-4">Professional Experience</h3>
+                                    <div class="timeline">
+                                        <div class="career-item mb-3 pb-3 border-bottom">
+                                            <h5>Calipatria State Prison</h5>
+                                            <p class="text-muted mb-1">2007-2014: Correctional Sergeant</p>
+                                            <p class="text-muted mb-1">2011-2012: Correctional Counselor</p>
+                                            <p class="text-muted">1999-2007: Correctional Officer</p>
+                                        </div>
+                                        <div class="career-item mb-3 pb-3 border-bottom">
+                                            <h5>S.E.C. Unarmed Private Independent Security Service</h5>
+                                            <p class="text-muted">1993-Present: Private Security</p>
+                                        </div>
+                                        <div class="career-item mb-3 pb-3 border-bottom">
+                                            <h5>Various Public Safety Roles</h5>
+                                            <p class="text-muted mb-1">1997-2004: Emergency Medical Technician I @ Gold Cross Ambulance</p>
+                                            <p class="text-muted mb-1">1994-1998: Reserve Firefighter @ Calexico Fire Dept.</p>
+                                            <p class="text-muted">1996-1999: Facility Manager/Safety Officer @ VOA Kelley Adolescent Treatment Center</p>
+                                        </div>
+                                        <div class="career-item">
+                                            <h5>Early Career</h5>
+                                            <p class="text-muted mb-1">1986-1996: Shift Supervisor @ Imperial Co. Probation Juvenile Hall</p>
+                                            <p class="text-muted mb-1">1980-1986: Juvenile Hall @ Imperial Co. Probation Dept.</p>
+                                            <p class="text-muted">1978-1980: Correctional Officer @ Imperial Co. Sheriff Dept.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="mt-4">
-                        <h3 class="h4 mb-3">Areas of Expertise</h3>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">✓ Security Guard Training (8 Years Experience)</li>
-                            <li class="mb-2">✓ Exposed Firearms Training (21 Years Experience)</li>
-                            <li class="mb-2">✓ Use of Force Training</li>
-                            <li class="mb-2">✓ Virtual Training Implementation</li>
-                        </ul>
+    
+                        <!-- Certificates Tab -->
+                        <div class="tab-pane fade" id="certificates">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h4 mb-4">Professional Certifications</h3>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <h6 class="mb-1">Basic Correctional Officer Academy</h6>
+                                                    <small class="text-muted">Completed: October 22, 1999</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h6 class="mb-1">Field Evidence Technician Course</h6>
+                                                    <small class="text-muted">80 Hours - Completed: November 14, 2005</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h6 class="mb-1">Basic CPR/AED Instructor</h6>
+                                                    <small class="text-muted">24 Hours - Completed: August 8, 2000</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h6 class="mb-1">Range Safety Officer</h6>
+                                                    <small class="text-muted">40 Hours - Completed: February 8, 2002</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h6 class="mb-1">Basic Homicide Investigations</h6>
+                                                    <small class="text-muted">40 Hours - Certificate #2060-31920-03006</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h6 class="mb-1">Emergency Medical Technician I</h6>
+                                                    <small class="text-muted">132 Hours - Certificate #963542</small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +210,7 @@
     </section>
 
     <!-- Services Section -->
-    <section class="py-5 bg-light">
+    <section class="pb-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-5">Our Training Programs</h2>
             <div class="row g-4">
